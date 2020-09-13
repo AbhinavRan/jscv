@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>yourname</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/5a4cb21237.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+       <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="magnify">
+        <h1 onclick="closemagnify()"><i class="fas fa-times"></i></h1>
+        <div id="img_here"></div>
+    </div>
+    <header id="header" class="animated slideInDown" style="animation-delay:1.8s;">
+        <table>
+            <tr>
+                <td id="logo">Abhinav Ranjan</td>
+                <td id="navigation">
+                    <a href="#work">Work</a>
+                    <a href="#bio">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#contact">Contact</a>
+                </td>
+            </tr>
+        </table>
+    </header>
+    <table id="top_part">
+        <tr>
+            <td id="about" class="animated slideInLeft" style="animation-delay:2s;">
+                <h2>I'm focused on creating meaningful experinces through design, currently working on being full stack web developer where I can apply, develop and consolidate my skills.</h2>
+                <a class="btn_one" href="cv.pdf"><i class="fa fa-download"></i> Download Resume </a><br>
+                <table>
+                    <tr>
+                        <td class="animated zoomIn" style=" animation-delay:2.2s;"><a class="social" href="https://github.com/AbhinavRan" ><i class="fab fa-github" style="color: black;" ></i></a></td>
+                        <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social" href="https://join.skype.com/invite/WFSM0Eg5jprf"><i class="fab fa-linkedin" style="color:#0090C1 "></i></a></td>
+                        <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social" href="https://join.skype.com/invite/WFSM0Eg5jprf"><i class="fab fa-skype" style="color: cyan"></i></a></td>
+                        <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social" href="https://www.instagram.com/__a_b_h_i_n_a_v___/"><i class="fab fa-instagram" style="color: #E85B43"></i></a></td>
+                        <td class="animated zoomIn" style="animation-delay:3.0s;"><a class="social" href="https://medium.com/@abhinavranjan334"><i class="fab fa-medium" style="color: black;"></i></a></td>
+                    </tr>
+                </table>
+            </td>
+            <td id="rightImage" class="animated jackInTheBox" style="animation-delay:2.2s;"></td>
+        </tr>
+    </table>
+    <div id="work">
+        <h1>Work</h1>
+        <div id="photos">
+            <img onclick="magnify($(this).attr('src'))" src="pf1.gif">
+
+
+
+
+
+            
+            <img onclick="magnify($(this).attr('src'))" src="pf2.gif">
+            <img onclick="magnify($(this).attr('src'))" src="pf3.gif">
+            <img onclick="magnify($(this).attr('src'))" src="pf4.png">
+            
+        </div>
+    </div>
+    <div id="bio">
+        <h1>about</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <div id="skills">
+        <h1>skills</h1>
+        <p>
+           <p>HTML</p>
+<div class="container">
+  <div class="skills html">90%</div>
+</div>
+
+<p>CSS</p>
+<div class="container">
+  <div class="skills css">80%</div>
+</div>
+
+<p>JavaScript</p>
+<div class="container">
+  <div class="skills js">65%</div>
+</div>
+
+<p>PHP</p>
+<div class="container">
+  <div class="skills php">60%</div>
+</div>
+        </p>
+       
+    </div>
+    <div id="contact">
+        <h1>contact</h1>
+            <table>
+                <tr>
+                    <td>
+                        <div id="inner_div">
+                            <table id="inner_table">
+                                <tr>
+                                    <td><i class="fas fa-phone"></i> &nbsp;<a href="tel:+919142103209" style="color:black; text-decoration:none;">9140103209</a></td>
+                                </tr>
+                                <tr>
+                                    <tr>
+                                    <td><i class="fa fa-whatsapp" aria-hidden="true"></i> &nbsp; <a href="https://api.whatsapp.com/send?phone=9872563458"style="color:black; text-decoration:none;">9872563458</a></td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fas fa-at"></i> &nbsp; <a href="mailto:abhinavranjan334@gmail.com" style="color:black; text-decoration:none;">abhinavranjan334@gmail.com</td>
+                                </tr>
+                                 
+                                <tr>
+                                    <td><i class="fas fa-map-marker-alt"></i>
+                                    <div id="address">
+                                        Ranchi,<br>
+                                        Jharkhand, IN
+                                    </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    
+                                </tr>
+                            </table>
+                        </div>
+                    </td>
+                    <td>
+                        <form>
+                            <input type="text" placeholder="name" required>
+                            <input type="email" placeholder="email" required><br>
+                            <textarea placeholder="your message" required rows="5"></textarea><br>
+                            <button class="btn_two"><i class="fa fa-paper-plane"> send</i></button>
+                        </form> 
+                    </td>
+                </tr>
+            </table>
+    </div>
+    <div id="footer">
+         
+              <li>&copy; Copyright 2020 Abhinav Ranjan</li>
+              <li>Designed by <a href="https://www.linkedin.com/in/abhinav-ranjan-242a5b116/">Abhinav</a></li>
+           
+    </div>
+    <script src="index.js" type="text/javascript"></script>
+</body>
+</html>
